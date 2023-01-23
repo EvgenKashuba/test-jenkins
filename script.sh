@@ -1,5 +1,3 @@
-hostname
-cat << EOF > script.sh
 #!/bin/bash
 FILENAME="log"
 CHOICE=\$1
@@ -16,5 +14,3 @@ case \$CHOICE in
    touch test ;;
 esac
 echo "ErrorLogs in \$CHOICE add in \$FILENAME succesful!"
-EOF
-echo "End script"
