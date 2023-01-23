@@ -1,5 +1,5 @@
 hostname
-cat << EOF > ./script.sh
+cat << EOF > script.sh
 #!/bin/bash
 FILENAME="log"
 CHOICE=\$1
