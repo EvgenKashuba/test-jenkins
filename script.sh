@@ -1,5 +1,5 @@
 hostname
-cat << EOF > script.sh
+cat << EOF > /home/ubuntu/project1/test-jenkins/script.sh
 #!/bin/bash
 FILENAME="log"
 CHOICE=\$1
