@@ -9,7 +9,7 @@ case $CHOICE in
   "Nov" )
    journalctl -p err | grep "$CHOICE" > $FILENAME-$CHOICE-Error-`date +%b\-%d\-%Y\-%T` ;;
   * )
-   journalctl -p err | tail -n 20 > $FILENAME-Err-last20-`date +%b\-%d\-%Y\-%T`
+   journalctl -p err | tail -n 20 > $FILENAME-Err-last20-`date +%b-%d-%Y-%T`
    CHOICE="this month (last 20)" 
    touch test ;;
 esac
