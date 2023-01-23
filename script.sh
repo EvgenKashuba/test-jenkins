@@ -17,4 +17,3 @@ case \$CHOICE in
 esac
 echo "ErrorLogs in \$CHOICE add in \$FILENAME succesful!"
 EOF
-bash script.sh
